@@ -1,0 +1,3 @@
+[submodule "libs/libutils"]
+	path = libs/libutils
+	url = https://github.com/toni-toni-choppa/libutils.git
