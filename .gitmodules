@@ -1,3 +1,9 @@
 [submodule "libs/libutils"]
 	path = libs/libutils
 	url = https://github.com/toni-toni-choppa/libutils.git
+[submodule "libs/libdecoder"]
+	path = libs/libdecoder
+	url = https://github.com/toni-toni-choppa/libdecoder.git
+[submodule "libs/libcoremedia"]
+	path = libs/libcoremedia
+	url = https://github.com/toni-toni-choppa/libcoremedia.git

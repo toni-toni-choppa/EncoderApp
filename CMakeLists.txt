@@ -8,6 +8,9 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_executable(EncoderApp src/main.cpp)
 
 add_subdirectory(libs/libutils)
-include_directories(libs/libutils/include)
+add_subdirectory(libs/libdecoder)
+add_subdirectory(libs/libcoremedia)
 
 target_link_libraries(EncoderApp PRIVATE utils)
+target_link_libraries(EncoderApp PRIVATE decoder)
+target_link_libraries(EncoderApp PRIVATE coremedia)
